@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom{
+  margin-left: 14rem;
+}
+
+.custom > li:hover a{
+  color: #0077ff;
+}
+
+.nav-item{
+  margin-left: 40px;
+}
+
+.footerPara p,
+.footerPara a {
+  font-size: 10px;
+}
+
+.footer-links a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #4e4e4e;
+  display: block;
+  padding: 0;
+}
+
+.footer-links p{
+  font-size: 18px;
+}
