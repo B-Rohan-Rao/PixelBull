@@ -7,7 +7,7 @@ export default function Footer(){
                 <div className='row mt-5'>
                     <div className='col'>
                         <img src='media/images/PixelBull-Logo.png' alt='Logo' style={{width: "50%"}}/>
-                        <p>
+                        <p style={{fontSize: "14px", marginTop:"12px"}}>
                             &copy;2010 - 2025, PixelBull Broking Ltd.
                             All rights reserved.
                         </p>
