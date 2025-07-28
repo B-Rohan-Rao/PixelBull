@@ -40,3 +40,26 @@ code {
 .footer-links p{
   font-size: 18px;
 }
+
+#supportHero{
+  background: rgb(56,126,209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px;
+}
+
+#supportHero input{
+  padding: 20px 25px;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+}
