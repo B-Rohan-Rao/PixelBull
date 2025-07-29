@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03b34a03-9dcb-4af7-afe8-31a34acf5f02" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2znw9LMEAI0Nd0Jyl0ejmqSQV3p" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/program1/PixelBull&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\program1\PixelBull\frontend\src\landing_page" />
+      <recent name="C:\program1\PixelBull\frontend\src\Investment" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.24807.6" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03b34a03-9dcb-4af7-afe8-31a34acf5f02" name="Changes" comment="" />
+      <created>1752379993171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752379993171</updated>
+      <workItem from="1752379994559" duration="1419000" />
+      <workItem from="1752441572664" duration="5905000" />
+      <workItem from="1752523318062" duration="3894000" />
+      <workItem from="1752551563836" duration="297000" />
+      <workItem from="1752642148038" duration="3512000" />
+      <workItem from="1752668276102" duration="2442000" />
+      <workItem from="1752727097701" duration="3898000" />
+      <workItem from="1752755513649" duration="4086000" />
+      <workItem from="1752809516968" duration="2394000" />
+      <workItem from="1752836366932" duration="593000" />
+      <workItem from="1752843757313" duration="643000" />
+      <workItem from="1752893247807" duration="7158000" />
+      <workItem from="1752983663288" duration="10281000" />
+      <workItem from="1753038797145" duration="6597000" />
+      <workItem from="1753073171376" duration="3127000" />
+      <workItem from="1753111368535" duration="1371000" />
+      <workItem from="1753157081916" duration="4266000" />
+      <workItem from="1753337727021" duration="299000" />
+      <workItem from="1753342906296" duration="803000" />
+      <workItem from="1753406473171" duration="586000" />
+      <workItem from="1753505437737" duration="999000" />
+      <workItem from="1753567055494" duration="1176000" />
+      <workItem from="1753583488887" duration="493000" />
+      <workItem from="1753612777810" duration="2565000" />
+      <workItem from="1753712730763" duration="2644000" />
+      <workItem from="1753720808547" duration="977000" />
+      <workItem from="1753761840947" duration="2030000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
