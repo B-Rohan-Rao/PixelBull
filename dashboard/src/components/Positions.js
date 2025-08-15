@@ -1,10 +1,20 @@
-import React from "react";
-import {holdings, positions} from "../data/data";
+import React, { useState, useEffect } from "react";
+// import {holdings, positions} from "../data/data";
+import axios from "axios";
 
 const Positions = () => {
+    const [allPositions, setAllPositions] = useState([]);
+
+    useEffect(() => {
+        axios.get("http://localhost:3002/allPositions").then((res)=>{
+            console.log(res.data);
+            setAllPositions(res.data);
+        })
+    }, []);
+
     return (
         <>
-            <h3 className="title">Positions ({positions.length})</h3>
+            <h3 className="title">Positions ({allPositions.length})</h3>
 
             <div className="order-table">
                 <table>
@@ -18,7 +28,7 @@ const Positions = () => {
                         <th>Chg.</th>
                     </tr>
 
-                    {positions.map((stock, index) => {
+                    {allPositions.map((stock, index) => {
                         const currValue = stock.price * stock.qty;
                         const isProfit = currValue - stock.avg * stock.qty >= 0.0;
                         const profClass = isProfit ? "profit":"loss";
@@ -26,13 +36,13 @@ const Positions = () => {
 
                         return (
                             <tr key={index}>
-                                <td>{stock.product}</td>
-                                <td>{stock.name}</td>
-                                <td>{stock.qty}</td>
-                                <td>{stock.avg.toFixed(2)}</td>
-                                <td>{stock.price.toFixed(2)}</td>
-                                <td className={profClass}>{(currValue - stock.avg * stock.qty).toFixed(2)}</td>
-                                <td className={dayClass}>{stock.day}</td>
+                                <td style={{fontSize:'12px'}}>{stock.product}</td>
+                                <td style={{fontSize:'12px'}}>{stock.name}</td>
+                                <td style={{fontSize:'12px'}}>{stock.qty}</td>
+                                <td style={{fontSize:'12px'}}>{stock.avg.toFixed(2)}</td>
+                                <td style={{fontSize:'12px'}}>{stock.price.toFixed(2)}</td>
+                                <td className={profClass} style={{fontSize:'12px'}}>{(currValue - stock.avg * stock.qty).toFixed(2)}</td>
+                                <td className={dayClass} style={{fontSize:'12px'}}>{stock.day}</td>
                             </tr>
                         );
                     })}
